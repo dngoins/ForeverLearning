@@ -1,0 +1,27 @@
+{
+  "runtimeOptions": {
+    "tfm": "net8.0",
+    "framework": {
+      "name": "Microsoft.NETCore.App",
+      "version": "8.0.0"
+    },
+    "configProperties": {
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false
+    },
+    "assemblyBinding": {
+      "dependentAssembly": [
+        {
+          "assemblyIdentity": {
+            "name": "System.Threading.Channels",
+            "publicKeyToken": "cc7b13ffcd2ddd51",
+            "culture": "neutral"
+          },
+          "bindingRedirect": {
+            "oldVersion": "0.0.0.0-8.0.0.0",
+            "newVersion": "8.0.1825.31117"
+          }
+        }
+      ]
+    }
+  }
+}
